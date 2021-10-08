@@ -7,19 +7,54 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .pokemon {
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex: 1 1 auto;
   min-width: 25%;
+  max-width: 100%;
   margin: 10px 10px;
   border: 1px gray solid;
   border-radius: 10px;
+  padding: 10px;
 }
 
-.pokedex {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 10px 10px;
+.nav-buttons {
+  margin-top: 15px;
+}
+
+.nav-buttons button {
+  width: 130px;
+  margin: 5px;
+}
+
+.next-pokemon {
+  background-color: white;
+  padding: 15px;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.psychic-pokemon {
+  background-color: white;
+  padding: 15px;
+  border: 2px solid rgb(99, 67, 206);
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.fire-pokemon {
+  background-color: white;
+  padding: 15px;
+  border: 2px solid rgb(255, 136, 0);
+  border-radius: 50px;
+  cursor: pointer;
 }
